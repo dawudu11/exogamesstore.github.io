@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About - Exogames</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+</head>
+<body>
+
+	
+	<div class="container">
+		<div class="navbar">
+		<div class="logo">
+			<a href="index.html"><img src="C:/Users/dawud/Desktop/Exogames/Images/exogameslogo.png" width="165">
+		</div>
+		<nav>
+			<ul id="MenuItems">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="products.html">Products</a></li>
+				<li><a href="">Contact</a></li>
+				<li><a href="account.html">Account</a></li>
+			</ul>
+		</nav>
+		<img src="C:/Users/dawud/Desktop/Exogames/Images/menu-icon-removebg-preview.png" class="menu-icon" width="50px" height="43px" onclick="menutoggle()">
+	</div>
+   </div>
+
+
+<div class="about"></div>
+<h2>Who Are We</h2>
+
+<p>Welcome to Exogames, a website that keeps you on top of your games. We sell a lot of gaming products like Controllers, Monitors, Games etc.</p>
+<br>
+<h2>Why We Made This Website</h2>
+
+<p>We made this website because coding is our passion and we love making websites and so many more projects.</p>
+
+<h2>What We Used For This Website</h2>
+
+<p>For this project, we used HTML and CSS mainly, with a little bit of Java Script. If you want to see more projects, email us at dawudumar558@gmail.com.</p>
+
+
+<!------- footer -------->
+
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col-1">
+					<h3>Download Our App</h3>
+					<p>Download our app for Android and iOS.</p>
+					<div class="app-logo">
+						<img src="C:/Users/dawud/Desktop/Exogames/Images/google-play.png">
+						<img src="C:/Users/dawud/Desktop/Exogames/Images/app-store-removebg-preview.png">
+					</div>
+				</div>
+				<div class="footer-col-2">
+					<img src="C:/Users/dawud/Desktop/Exogames/Images/exogameslogo.png" width="150px" height="70px">
+					<p>The Purpose Of This Website Is To Buy Stuff Easier, And Create A New Website Different From Amazon And Ebay.</p>
+				</div>
+				<div class="footer-col-3">
+					<h3>Useful Links</h3>
+					<ul>
+						<li>Coupons</li>
+						<li>Return Policy</li>
+						<li>Join Affiliate</li>
+					</ul>
+				</div>
+				<div class="footer-col-4">
+					<h3>Follow Us</h3>
+					<ul>
+						<li>Facebook</li>
+						<li>Youtube</li>
+						<li>Tiktok</li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<p class="copyright">Copyright 2023 - All Rights Reserved.</p>
+		</div>
+	</div>
+<!--------- js for toggle menu -------->
+	<script>
+		var MenuItems = document.getElementById("MenuItems");
+
+		MenuItems.style.maxHeight = "0px";
+
+		function menutoggle(){
+			if(MenuItems.style.maxHeight == "0px")
+				{	
+					MenuItems.style.maxHeight = "200px";
+				}
+			else
+				{	
+					MenuItems.style.maxHeight = "0px";
+				}
+		}
+	</script>
+
+
+
+
+</body>
+</html>
